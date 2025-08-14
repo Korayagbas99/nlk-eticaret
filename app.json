@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "nlk-eticaret",
+    "slug": "nlk-eticaret",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1f2a44"
+    },
+
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#1f2a44"
+      }
+    },
+
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#1f2a44"
+      }
+    },
+
+    "androidStatusBar": {
+      "backgroundColor": "#1f2a44",
+      "barStyle": "light-content",
+      "translucent": false
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
